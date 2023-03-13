@@ -16,17 +16,20 @@ export class App {
   variable_Email: string = 'dcabrerab2@est.ups.edu.ec';
   variable_Descripcion = 'Estudiante - Universidad Politécnica Salesiana';
   variable_Edad: number = 26;
+  variable_Alt_Img: String = 'Logo Google';
+  img =
+    'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png';
 
   coleccion_Productos = [
     {
       codigo_Producto: 'P001',
-      nombre_Producto: 'TV 32',
+      nombre_Producto: 'TV 32"',
       precio_Producto: 1678,
     },
 
     {
       codigo_Producto: 'P002',
-      nombre_Producto: 'TV 55',
+      nombre_Producto: 'TV 55"',
       precio_Producto: 1678,
     },
   ];
