@@ -1,0 +1,28 @@
+<h1>¡Hola desde {{variable_Angular}}!</h1>
+<a target="_blank" href="https://angular.io/start">
+  Aprenda más sobre Angular
+</a>
+<p>Comience a editar para ver cómo sucede algo de magia :)</p>
+<h1>UPS</h1>
+<h2>{{variable_Nombre}}</h2>
+<h3>{{variable_Email}}</h3>
+<p>{{variable_Descripcion}}</p>
+<p>{{coleccion_Productos | json}}</p>
+
+<!-- Primitiva NgForm: -->
+<ul>
+  <li *ngFor="let variable_Productos of coleccion_Productos">
+    {{variable_Productos.nombre_Producto}} $
+    {{variable_Productos.precio_Producto}}
+  </li>
+</ul>
+
+<!-- Primitiva NgIf: -->
+<img
+  *ngIf="variable_Edad > 18"
+  src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
+  alt="Logo Google"
+/>
+
+<!-- <button (click)="metodoSaludar()">saludar ups</button>
+-->
