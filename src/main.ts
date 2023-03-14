@@ -22,15 +22,15 @@ export class App {
 
   coleccion_Productos = [
     {
-      codigo_Producto: 'P001',
-      nombre_Producto: 'TV 32"',
-      precio_Producto: 1678,
+      codigo_Producto_02: 'P001',
+      nombre_Producto_02: 'TV 32"',
+      precio_Producto_02: 1678,
     },
 
     {
-      codigo_Producto: 'P002',
-      nombre_Producto: 'TV 55"',
-      precio_Producto: 1687,
+      codigo_Producto_02: 'P002',
+      nombre_Producto_02: 'TV 55"',
+      precio_Producto_02: 1687,
     },
   ];
 
