@@ -16,8 +16,8 @@ export class App {
   variable_Email: string = 'dcabrerab2@est.ups.edu.ec';
   variable_Descripcion = 'Estudiante - Universidad Politécnica Salesiana';
   variable_Edad: number = 26;
-  variable_Alt_Img: String = 'Logo Google';
-  img =
+  variable_Alt_Img: string = 'Logo Google';
+  variable_Img =
     'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png';
 
   coleccion_Productos = [
